@@ -1,0 +1,47 @@
+.destacado{
+    font-weight: bold !important;
+    color: crimson !important;
+}
+
+.py{
+    font-weight: bold !important;
+    color: limegreen !important;
+}
+
+div.portada{
+  text-align: center;
+}
+
+.reveal section img{
+  background: none;
+}
+
+figure.centrado {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.centrado picture {
+  margin-bottom: 10px; /* Espacio entre la imagen y el texto */
+}
+
+.centrado figcaption {
+  margin-top: 10px; /* Espacio entre el texto y el borde inferior del contenedor */
+}
+
+figure.centrado img{
+  display: block;
+  max-width: 100%; 
+  height: auto;
+}
+
+.rendered_html tbody tr:nth-child(odd){
+  background: rgba(66, 165, 245, 0.2);
+}
+
+.rendered_html pre, .rendered_html code{
+  background: rgba(12, 16, 33);
+  color: rgb(141, 166, 206);
+}
