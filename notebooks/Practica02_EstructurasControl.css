@@ -5,7 +5,8 @@
 
 .py{
     font-weight: bold !important;
-    color: limegreen !important;
+    /*color: limegreen !important;*/
+    color: #114e85 !important;
 }
 
 div.portada{
@@ -42,25 +43,18 @@ figure.centrado img{
 }
 
 .rendered_html pre, .rendered_html code{
+  /*
   background: rgba(12, 16, 33);
   color: rgb(141, 166, 206);
+  */
+  font-weight: bold;
+  color: darkblue;
 }
 
 strong {
-  color: orange;
+  /*color: orange;*/
+  color: darkgreen
 }
-/*
-.rendered_html h1 {
-  margin: 0.50em 0 0 0;
-}
-
-.rendered_html h3 {
-  margin: 0.75em 0 0 0;
-}
-
-.rendered_html h4 {
-  margin: 1em 0 0 0;
-}*/
 
 li {
   text-align: justify !important;
