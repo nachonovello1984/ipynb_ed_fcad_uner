@@ -1,25 +1,19 @@
 # Jupyter Notebook + RISE presentaciones de Estructuras de Datos - FCAD UNER
 ## Comandos para exportar a pdf
-Generate the slides and serve them using nbconvert:
 
-jupyter nbconvert --to slides your_talk.ipynb --post serve
+* Para generar la versión en PDF debemos primero generar la versión HTML usando **nbconvert**:
 
-It opens up a webpage in the browser at http://127.0.0.1:8000/your_talk.slides.html#/
+```jupyter nbconvert --to slides your_talk.ipynb --post serve```
 
-Add ?print-pdf to the query string as http://127.0.0.1:8000/your_talk.slides.html?print-pdf
+* Se abre una página web en el navegador de la siguiente forma: ```http://127.0.0.1:8000/your_talk.slides.html#/```
 
-Note that you need to remove the # at the end. The page will render the slides vertically.
+* Agregamos el query param ```?print-pdf``` quedando algo así: ```http://127.0.0.1:8000/your_talk.slides.html?print-pdf```
 
-Save to PDF in Chrome using the print option
+* Notese que es necesario quitar el # al final de la URL para que las diapositivas se muestren verticalmente.
 
-Open the in-browser print dialog (Cmd/Ctrl + P).
+* Usar la opción de impresión del navegador para guardar como PDF.
 
-Change the Destination setting to Save as PDF.
-
-Change the Layout to Landscape.
-
-Change the Margins to None.
-
-Enable the Background graphics option.
-
-Click Save.
+    1. Cambiar la disposición a "apaisado".
+    2. Quitar márgenes. 
+    3. Habilitar la opción de fondos.
+    4. Guardar
